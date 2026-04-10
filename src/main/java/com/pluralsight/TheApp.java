@@ -30,6 +30,7 @@ public class TheApp {
         // If hours are 40 or less, no overtime
         if (hoursWorked <= 40) {
 
+            //calc total pay
             totalPay = hoursWorked * payRate;
 
         } else {
